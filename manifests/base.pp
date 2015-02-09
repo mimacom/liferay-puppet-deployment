@@ -1,5 +1,5 @@
 node liferaydev {
-  require java
-  require mysql
-  require liferay
+  include java
+  include mysql
+  include liferay
 }

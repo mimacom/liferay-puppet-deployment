@@ -31,5 +31,4 @@ class mysql {
     path => ["/usr/bin", "/bin"],
     require => Exec["mysql-passwd"]
   }
-
 }
